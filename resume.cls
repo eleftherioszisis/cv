@@ -168,6 +168,7 @@
   ItalicFont=*-Italic,
   BoldFont=*-Bold,
   BoldItalicFont=*-BoldItalic,
+  Extension=.ttf
 ]{Roboto}
 
 \newfontfamily\headerfontlight[
@@ -176,6 +177,7 @@
   ItalicFont=*-ThinItalic,
   BoldFont=*-Medium,
   BoldItalicFont=*-MediumItalic,
+  Extension=.ttf
 ]{Roboto}
 
 \newfontfamily{\symbolsfont}[
