@@ -35,6 +35,8 @@ jobs:
 
   release:
 
+    runs-n: ubuntu-latest
+
     needs: [build]
 
     if: github.event_name == 'release' && github.event.action == 'published'
